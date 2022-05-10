@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Spread15_TableBind</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form1.cs" Link="Form1.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form1.Designer.cs" Link="Form1.Designer.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form2.cs" Link="Form2.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form2.Designer.cs" Link="Form2.Designer.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form3.cs" Link="Form3.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Form3.Designer.cs" Link="Form3.Designer.cs" />
+    <Compile Include="..\..\Spread15_TableBind\Spread15_TableBind\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\Spread15_TableBind\Spread15_TableBind\Properties\licenses.licx" Link="licenses.licx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.Spread.WinForms.ja" Version="15.0.0" />
+  </ItemGroup>
+
+</Project>
